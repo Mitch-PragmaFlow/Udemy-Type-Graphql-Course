@@ -1,0 +1,23 @@
+{
+  "name": "type-graphql-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "start": "yarn build && node dist/indes.js",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "dec": "nodemon dist/index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.10.0",
+    "express": "^4.18.1",
+    "nexus": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}
