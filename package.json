@@ -7,7 +7,7 @@
     "start": "yarn build && node dist/indes.js",
     "build": "tsc",
     "build:watch": "tsc -w",
-    "dec": "nodemon dist/index.js"
+    "dev": "nodemon dist/index.js"
   },
   "dependencies": {
     "apollo-server-express": "^3.10.0",
