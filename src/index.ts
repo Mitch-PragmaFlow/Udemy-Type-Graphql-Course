@@ -1,7 +1,7 @@
 import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
-
 import { getSchema } from './graphql/schema';
+
 
 const main = async () => {
     const app = express();
